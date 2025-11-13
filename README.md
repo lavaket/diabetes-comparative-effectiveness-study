@@ -10,7 +10,7 @@
 **Program:** MS Pharmacoepidemiology, Rutgers School of Public Health  
 **Contact:** tlavake27@gmail.com | [GitHub](https://github.com/lavaket) | [LinkedIn](https://linkedin.com/in/tim-lavake)
 
----
+
 
 ## Project Overview
 
@@ -26,7 +26,7 @@ This repository demonstrates a **production-quality real-world effectiveness (RW
 - ✅ Comprehensive sensitivity and subgroup analyses
 - ✅ Regulatory-compliant documentation (STROBE guidelines)
 
----
+
 
 ## Project Motivation
 
@@ -73,7 +73,7 @@ I'm using synthetic data to ensure complete **transparency and reproducibility**
 
 **Next steps:** Seeking IRB approval to replicate this analysis with real claims data as part of my thesis work.
 
----
+
 
 ## About the Author
 
@@ -90,7 +90,7 @@ My experience at J&J and Merck showed me the critical role of evidence generatio
 **Career Goals:**  
 Seeking full-time opportunities in HEOR, Real-World Evidence, or Regulatory Affairs at pharmaceutical/biotech companies where I can apply my unique combination of pharma operations experience and advanced quantitative skills.
 
----
+
 
 ## Quick Start
 
@@ -123,7 +123,7 @@ source("subgroup_analysis.R")
 - **Number Needed to Treat (3 years):** ~42 patients
 - **Consistent effects** across age, sex, kidney function, prior CVD subgroups
 
----
+
 
 ## Contact & Collaboration
 
@@ -140,12 +140,12 @@ LinkedIn](https://linkedin.com/in/tim-lavake)
 - Internship/full-time opportunities in HEOR, RWE, or regulatory affairs
 - Technical discussions on causal inference methods
 
----
+
 
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
----
+
 
 **⭐ If you find this project useful, please star the repository!**
