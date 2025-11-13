@@ -12,7 +12,7 @@
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 This repository demonstrates a **production-quality real-world effectiveness (RWE) study** comparing empagliflozin (SGLT2 inhibitor) versus sitagliptin (DPP-4 inhibitor) for cardiovascular outcomes in patients with type 2 diabetes. The analysis uses **target trial emulation methodology** to minimize biases inherent in observational research.
 
@@ -28,7 +28,7 @@ This repository demonstrates a **production-quality real-world effectiveness (RW
 
 ---
 
-## 🎯 Project Motivation
+## Project Motivation
 
 ### Why This Project?
 
@@ -75,7 +75,7 @@ I'm using synthetic data to ensure complete **transparency and reproducibility**
 
 ---
 
-## 👨‍🔬 About the Author
+## About the Author
 
 I'm Tim LaVake, a Master's student in Pharmacoepidemiology at Rutgers School of Public Health with a strong foundation in both pharmaceutical operations and data science.
 
@@ -92,7 +92,7 @@ Seeking full-time opportunities in HEOR, Real-World Evidence, or Regulatory Affa
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 See [QUICKSTART.md](QUICKSTART.md) for detailed setup instructions.
 
@@ -109,7 +109,7 @@ source("subgroup_analysis.R")
 
 ---
 
-## 📈 Key Results
+## Key Results
 
 ### Primary Analysis (Matched Cohort)
 
@@ -125,15 +125,15 @@ source("subgroup_analysis.R")
 
 ---
 
-## 📧 Contact & Collaboration
+## Contact & Collaboration
 
 **Tim LaVake**  
 MS Pharmacoepidemiology Candidate  
 Rutgers School of Public Health
 
-📫 tlavake27@gmail.com  
-💼 [LinkedIn](https://linkedin.com/in/tim-lavake)  
-🐙 [GitHub](https://github.com/lavaket)
+tlavake27@gmail.com  
+LinkedIn](https://linkedin.com/in/tim-lavake)  
+[GitHub](https://github.com/lavaket)
 
 **Open to:**
 - Collaboration on pharmacoepidemiologic research
@@ -142,7 +142,7 @@ Rutgers School of Public Health
 
 ---
 
-## 📝 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
