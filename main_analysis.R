@@ -27,9 +27,7 @@ new_packages <- required_packages[!(required_packages %in% installed.packages()[
 if(length(new_packages)) install.packages(new_packages)
 lapply(required_packages, library, character.only = TRUE)
 
-################################################################################
-# 1. SIMULATE REALISTIC CLAIMS DATA
-################################################################################
+# Simulation of Realsitic claims Data
 
 set.seed(42)
 
@@ -95,9 +93,8 @@ cat("- Sitagliptin:", sum(cohort_data$treatment == 0), "\n")
 cat("- Events:", sum(cohort_data$event), "\n")
 cat("- Median follow-up:", round(median(cohort_data$follow_up_years), 2), "years\n\n")
 
-################################################################################
-# 2. BASELINE CHARACTERISTICS TABLE
-################################################################################
+# Baseline Characteristics Table
+
 
 baseline_vars <- c(
   "age", "female", "race_white", "hypertension", "hyperlipidemia", "ckd",
@@ -115,9 +112,7 @@ table1_pre <- CreateTableOne(
 cat("=== BASELINE CHARACTERISTICS (Pre-Matching) ===\n")
 print(table1_pre, smd = TRUE, showAllLevels = FALSE)
 
-################################################################################
-# 3. PROPENSITY SCORE MATCHING
-################################################################################
+# Propensity Score Matching
 
 cat("\n\n=== PROPENSITY SCORE MATCHING ===\n")
 
@@ -142,9 +137,9 @@ cat("\n- Matched pairs:", nrow(matched_cohort) / 2, "\n")
 cat("- Empagliflozin (matched):", sum(matched_cohort$treatment == 1), "\n")
 cat("- Sitagliptin (matched):", sum(matched_cohort$treatment == 0), "\n")
 
-################################################################################
-# 4. BALANCE DIAGNOSTICS
-################################################################################
+
+# Balance Diagnostics
+
 
 cat("\n\n=== COVARIATE BALANCE ASSESSMENT ===\n")
 
@@ -164,9 +159,8 @@ love_plot <- love.plot(
 
 print(love_plot)
 
-################################################################################
-# 5. PRIMARY OUTCOME ANALYSIS
-################################################################################
+
+# Primary Outcomes Analysis
 
 cat("\n\n=== PRIMARY OUTCOME ANALYSIS ===\n")
 
@@ -203,9 +197,8 @@ km_plot <- ggsurvplot(
 
 print(km_plot)
 
-################################################################################
-# 6. SAVE RESULTS
-################################################################################
+
+# Resutls
 
 dir.create("output", showWarnings = FALSE)
 
